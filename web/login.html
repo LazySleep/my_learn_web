@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    </style>
+    <script src="login.js" type="text/javascript" charset="utf-8">
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="green"></div>
+        <div class="white"></div>
+    </div>
+    <img class="logo" src="logowhite.png">
+    <div class="login">
+        <div class="login-left">
+            <form>
+                <input id="account" name="account" class="edit-text input" type="text" value="请输入已验证手机/邮箱" onfocus="accountOnFocus()" onblur="accountOnBlur()">
+                <p id="account-tip">
+                    <img src="login\error.png" width="12px" style='vertical-align:-2px;'>请输入已验证手机/邮箱</p>
+                <input id="password" name="password" class="edit-text input" type="text" value="请输入密码" onfocus="passwordOnFocus()" onblur="passwordOnBlur()">
+                <p id="password-tip">
+                    <img src="login\error.png" width="12px" style='vertical-align:-2px;'>请输入密码</p>
+                <p id="forget-key">
+                    <a href="" style="color: #00B38a;">忘记密码?</a>
+                </p>
+                <input class="commit input" name="commit" type="button" value="登&nbsp&nbsp录">
+                <span class="remenber-password" style="font-size:12px; display:block; float:left;">
+                    <input name="remenber" type="checkbox" style='vertical-align:-2px;'> 记住密码
+                </span>
+            </form>
+        </div>
+        <img class="division" src="login/divider-login.jpg">
+        <div class="login-right">
+            <p style="color:rgb(126,126,126); font-size:15px; font-weight:550;"> 使用以下账号直接登录:</p>
+            <div class="login-other">
+                <img src="login\login_icon-sina.png">
+                <img src="login\login_icon-tecent.png">
+                <img src="login\login_icon-wechat.png">
+            </div>
+            <div style="margin:20px 60px 0px 60px;line-height: 0;">
+                <img src=" login\login_qrcode.jpg " width=150px ">
+                <span style="font-size:12px; margin: 35px; color:rgb(126,126,126); ">
+                    [扫码下载APP]
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+﻿[
+  {"typeName":"技术",
+  "major":"Java PHP C++ Android iOS 数据挖掘 测试 前端开发 html5 技术总监 架构师 CTO",
+  "more":[
+    {"subTypeName":"后端开发","details":"Java Python PHP .NET C# C++ C VB Delphi Perl Ruby Hadoop Node.js 数据挖掘 自然语言处理 搜索算法 精准推荐 全栈工程师 Go ASP Shell 后端开发其他"},
+    {"subTypeName":"移动开发","details":"HTML5 Android iOS WP 移动开发其他"},
+    {"subTypeName":"前端开发","details":"web前端 Flash html5 Javascript U3D COCOS2D-X 前端开发其他"}
+  ]},
+  {
+    "typeName":"产品",
+    "major":"产品总监 产品经理 数据产品经理 游戏策划",
+    "more":[
+      {"subTypeName":"产品经理","details":"产品经理 网页产品经理 移动产品经理 产品助理 数据产品经理 电商产品经理 游戏策划 产品实习生"},
+      {"subTypeName":"产品设计师","details":"网页产品设计师 无线产品设计师"},
+      {"subTypeName":"高端职位","details":"产品部经理 产品总监 游戏制作人"}
+    ]
+  },
+  {
+    "typeName":"设计",
+    "major":"UI设计师 交互设计 网页设计师 平面设计师 视觉设计师",
+    "more":[]
+  }
+]
