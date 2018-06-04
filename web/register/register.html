@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+    <script src="register.js" type="text/javascript" charset="utf-8">
+    </script>
+</head>
+
+<body style="background:url('mr_basicbg.png'); background-color:#00b38a;">
+    <div class="main">
+        <img id="head" class="head" src="default_headpic.png">
+        <img class="head" src="mr_head.png">
+        <label for="open-head">
+            <img id="camera" class="camera" src="mr_headhover.png">
+        </label>
+        <p class="basic-info" >基本信息</p>
+        <form>
+            <input type="file" name="open-head" id="open-head" hidden onchange="getfilename(this)" accept="image/*">
+            <input class="input" type="text" value="请输入您的昵称" onfocus="inputonfocus(this,'请输入您的昵称','text')" onblur="inputonblur(this,'请输入您的昵称','text')">
+            <input class="input" type="text" value="请输入手机/邮箱" onfocus="inputonfocus(this,'请输入手机/邮箱','text')" onblur="inputonblur(this,'请输入手机/邮箱','text')">
+            <input class="input" type="text" value="请输入密码" onfocus="inputonfocus(this,'请输入密码','password')" onblur="inputonblur(this,'请输入密码','password')">
+            <input class="input" type="text" value="请重复输入密码"  onfocus="inputonfocus(this,'请重复输入密码','password')" onblur="inputonblur(this,'请重复输入密码','password')"> 
+            <input class="input" type="submit" style="background: #00b38a;color:white;padding: 0;" value="注&nbsp;&nbsp;册">
+        </form>
+    </div>
+</body>
+
+</html>
